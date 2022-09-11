@@ -1,0 +1,10 @@
+imputado = {"edad": 23, "accion": "homicidio",}
+
+if imputado["edad"]>18:
+  print("imputable")
+  if imputado["accion"] == "homicidio":
+    print("culpable")
+  else:
+    print("inocente")
+else:
+  print("inimputable")
